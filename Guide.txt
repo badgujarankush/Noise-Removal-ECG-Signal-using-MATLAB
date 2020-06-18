@@ -1,0 +1,9 @@
+This a 2nd year ECE Project which simulates the removal of noise from ECG Signal using MATLAB.
+There are mainly three kinds of noise produced in ECG signal 1) Baseline Noise 2) Powerline 3)EMG Noise
+EMG noise is difficult to remove( PS: i couldn't find a way to remove that xd)
+
+1) Add both the project file (project.m) and the data files which have pre-recorded ECG data which are corrupted with noise.
+2) The code contains basically 4 sections...First one to read the data file...Second to remove baseline (low freq noise)....Third to check the freq response to identify the high freq noise..
+   Fourth one to remove the particular high freq noise(mainly its gonna be 60Hz)
+3) Change the file name in first section when working with different data files.. and change the value of the width(w) in the last section of low-pass notch filter.
+4) Run the program and observe the Graphs.
